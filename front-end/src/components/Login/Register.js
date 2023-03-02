@@ -18,7 +18,7 @@ const Register = () => {
       setShow(true);
       return;
     }
-    const res = await axios.post("http://localhost:8800/register", {
+    const res = await axios.post("/register", {
       firstName,
       lastName,
       email,

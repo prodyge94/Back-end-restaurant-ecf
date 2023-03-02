@@ -16,7 +16,7 @@ const Login = () => {
       setShow(true);
       return;
     }
-    const res = await axios.post("http://localhost:8800/login", {
+    const res = await axios.post("/login", {
       email,
       password,
     });
