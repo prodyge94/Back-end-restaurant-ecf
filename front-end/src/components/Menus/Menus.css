@@ -1,0 +1,63 @@
+.menus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-image: url('https://www.moommam.fr/wp-content/uploads/2022/06/13.webp');
+    background-size: c;
+  }
+ 
+  
+  .card-container {
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222ad;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 350px;
+    padding:20px ;
+    margin-top: 15px;
+    box-shadow: 1px 2px 5px 1px bisque;
+    border-radius: 5px;
+    gap: 20px;
+  }
+  
+  .category {
+    box-shadow: 1px 2px 5px 1px bisque;
+
+    padding: 0 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 20px;
+   
+    background-color:#222;
+  }
+
+  .item{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #222222de;
+    box-shadow: 1px 2px 5px 1px bisque;
+  }
+  
+  
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  

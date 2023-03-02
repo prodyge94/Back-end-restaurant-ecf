@@ -1,0 +1,30 @@
+.login-page{
+    min-height: 80vh;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.login-form{
+    
+    box-shadow: 1px 2px 5px 1px #ffe4c4;
+
+    width: 60%;
+    padding: 50px;
+    min-width: 350px;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.login-page h2{
+   
+    width: 100%;
+    background-color: bisque;
+    color: #222;
+    text-align: center;
+    border-radius: 50px;
+}

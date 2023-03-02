@@ -1,0 +1,60 @@
+.reservation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: #222;
+   
+  }
+  .reservation-page h2{
+    background-color: bisque;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+  }
+  .reservation-form{
+    margin: 50px;
+    box-shadow: 1px 2px 5px 1px bisque;
+    text-align: center;
+    color: white;
+    min-width: 350px;
+    max-width: 600px;
+    width: 60%;
+    padding: 0 0 50px;
+  }
+  .alert{
+    margin: 20px;
+  }
+  input:focus{
+    box-shadow: 5px 5px 5px bisque;
+  }
+  textarea:focus{
+    box-shadow: 5px 5px 5px bisque;
+  }
+  label{
+    gap: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    width: 400px;
+    
+  }
+  select{
+    border-radius: 20px;
+    border: #222 1px solid;
+    background-color: bisque;
+    width: 200px;
+  }
+  select:focus{
+    box-shadow: 5px 5px 5px bisque;
+  }
+
+  @media screen and (max-width: 600px) {
+   label{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+  }
