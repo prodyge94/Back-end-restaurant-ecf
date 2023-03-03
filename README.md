@@ -16,7 +16,8 @@ MySQL
 Installation en local
 
 Cloner le dépôt de code à partir de Github
-Installer les dépendances à l'aide de la commande npm install bcrypt express mysql dotenv 
+Installer les dépendances à l'aide de la commande "npm install bcrypt express mysql dotenv body-parser cors nodemon"
+allez dans le dossier front-end grace a la commence "cd front-end" puis "npm install react-scripts"
 
 ---------------------------------------------
 Configuration
@@ -38,9 +39,8 @@ Pour accéder au site web, utiliser la commande npm run front-end
 ----------------------------------------------
 Fonctionnalités
 
-utilisateur: 
+utilisateur:  Affichage page d'accueil
               Affichage du menu du restaurant
-              Gestion des commandes
               Réservation de tables
               S'inscrire/Se connecter
 
