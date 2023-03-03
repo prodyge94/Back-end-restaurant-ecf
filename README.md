@@ -23,12 +23,8 @@ allez dans le dossier front-end grace a la commence "cd front-end" puis "npm ins
 Configuration
 
 Créer un fichier .env à la racine du projet
-Ajouter les informations de connexion à la base de données MySQL dans le fichier .env utilisez ma bdd déja en ligne copiez coller dans votre .env
-DB_HOST=mysql-prodyge.alwaysdata.net
-DB_USER=prodyge
-DB_PASSWORD=benammar
-DB_DATABASE=prodyge_restaurant
-
+Ajouter les informations de connexion à la base de données MySQL dans le fichier .env 
+alimentez la bdd avec les requetes sql presente dans le ficher eponymes
 
 ---------------------------------------------
 Utilisation
