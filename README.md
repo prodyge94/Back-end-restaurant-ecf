@@ -16,14 +16,18 @@ MySQL
 Installation en local
 
 Cloner le dépôt de code à partir de Github
-Installer les dépendances à l'aide de la commande npm install
+Installer les dépendances à l'aide de la commande npm install bcrypt express mysql dotenv 
 
 ---------------------------------------------
 Configuration
 
 Créer un fichier .env à la racine du projet
-Ajouter les informations de connexion à la base de données MySQL dans le fichier .env
-Allez dans le dossier package.json dans le dossier front-end et changez le proxy selon votre environnement
+Ajouter les informations de connexion à la base de données MySQL dans le fichier .env utilisez ma bdd déja en ligne copiez coller dans votre .env
+DB_HOST=mysql-prodyge.alwaysdata.net
+DB_USER=prodyge
+DB_PASSWORD=benammar
+DB_DATABASE=prodyge_restaurant
+
 
 ---------------------------------------------
 Utilisation
