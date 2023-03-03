@@ -43,6 +43,8 @@ utilisateur:  Affichage page d'accueil
 admin : Ajouter/Supprimer des menus
         Voir/Supprimer des reservations
         Ajouter/supprimer des tables (capacité du restaurant)
+ pour les fonctionalité admin : crée votre compte via la page sign up puis executez la requete sql :
+ "UPDATE users SET isAdmin = TRUE WHERE email = 'admin@example.com'"
 
 ---------------------------------------------
 Structure du code
