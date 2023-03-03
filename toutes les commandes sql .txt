@@ -17,8 +17,7 @@ CREATE TABLE
         password VARCHAR(255) NOT NULL,
         isAdmin BOOLEAN NOT NULL DEFAULT FALSE
     );
-INSERT INTO users (firstName, lastName, email, telephone, password, isAdmin)
-VALUES ('Admin', 'User', 'admin@example.com', '1234567890', 'password123', TRUE);
+UPDATE users SET isAdmin = TRUE WHERE email = 'admin@example.com';
 
 CREATE TABLE
     tables (
