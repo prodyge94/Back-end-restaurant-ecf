@@ -18,7 +18,7 @@ function ReservationList() {
     getReservations();
   };
   return (
-    <div>
+    <div className="reservationList">
       <h2>Reservations</h2>
       <div>
         <label htmlFor="date">Reservation Date:</label>
