@@ -23,8 +23,10 @@ allez dans le dossier front-end grace a la commence "cd front-end" puis "npm ins
 
 Configuration
 
-Créer un fichier .env à la racine du projet
-Ajouter les informations de connexion à la base de données MySQL dans le fichier .env et
+Utilisez mon fichier .env avec ma base de donnée deja en ligne et initialisé avec un admin déja integré (email : admin@example.com password : password123)
+
+Ou bien modifier le fichier .env à la racine du projet
+Remplacez les informations de connexion à votre base de données MySQL dans le fichier .env et
 si vous utilisez votre propre base de donnée alimentez la bdd avec les requetes sql presente dans le ficher eponymes
 
 ---
