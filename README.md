@@ -22,10 +22,12 @@ allez dans le dossier front-end grace a la commence "cd front-end" puis "npm ins
 ---------------------------------------------
 Configuration
 
+Si vous voulez utilisez votre propre base de donnée :
 Créer un fichier .env à la racine du projet
 Ajouter les informations de connexion à la base de données MySQL dans le fichier .env 
 alimentez la bdd avec les requetes sql presente dans le ficher eponymes
 
+Sinon laissez tel quel avec mon fichier .env et ma base de donnée en ligne deja configurée
 ---------------------------------------------
 Utilisation
 
