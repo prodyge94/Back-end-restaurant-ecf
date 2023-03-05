@@ -4,11 +4,15 @@
     align-items: center;
     padding: 50px;
     background-image: url('https://www.moommam.fr/wp-content/uploads/2022/06/13.webp');
-    background-size: c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
   }
+  
   .card-container {
-    
-    
+    position: relative;
+    overflow-y: scroll;
+    max-height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +29,7 @@
   
   .category {
     box-shadow: 1px 2px 5px 1px bisque;
-
+    margin-top: 40px;
     padding: 0 20px;
     text-align: center;
     font-weight: bold;

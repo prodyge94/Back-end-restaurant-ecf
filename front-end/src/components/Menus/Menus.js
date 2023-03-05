@@ -14,7 +14,9 @@ function Menus() {
   return (
     <div className="menus-container">
       <h2>La carte</h2>
+
       <div className="card-container">
+        {" "}
         <div className="category">
           <h5 id="entrée">entrée et salades</h5>
         </div>
