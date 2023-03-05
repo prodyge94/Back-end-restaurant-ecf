@@ -15,7 +15,7 @@ code {
     monospace;
 }
 ::-webkit-scrollbar {background-color: bisque;
-
+  scroll-behavior: auto;
   width: 15px;
   height: 12px;
 }

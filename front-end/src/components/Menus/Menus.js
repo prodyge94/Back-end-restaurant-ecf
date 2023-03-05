@@ -16,7 +16,7 @@ function Menus() {
       <h2>La carte</h2>
       <div className="card-container">
         <div className="category">
-          <h5>entrée et salades</h5>
+          <h5 id="entrée">entrée et salades</h5>
         </div>
         {menus.map((item) => {
           if (item.category === "entree" || item.category === "salade") {
@@ -34,7 +34,7 @@ function Menus() {
           }
         })}
         <div className="category">
-          <h5>plats</h5>
+          <h5 id="plats">plats</h5>
         </div>
         {menus.map((item) => {
           if (item.category === "plat") {
@@ -52,7 +52,7 @@ function Menus() {
           }
         })}
         <div className="category">
-          <h5>desserts</h5>
+          <h5 id="desserts">desserts</h5>
         </div>
         {menus.map((item) => {
           if (item.category === "dessert") {
@@ -70,7 +70,7 @@ function Menus() {
           }
         })}
         <div className="category">
-          <h5>menus Enfant</h5>
+          <h5 id="menus">menus Enfant</h5>
         </div>
         {menus.map((item) => {
           if (item.category === "menu_enfant") {
