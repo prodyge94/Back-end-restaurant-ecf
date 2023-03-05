@@ -64,3 +64,4 @@ src/app/ : répertoire contenant toutes les pages principales de l'application
 
 Contact
 Si vous avez des questions ou des problèmes, n'hésitez pas à nous contacter à l'adresse email suivante : 94200mehdy@gmail.com
+Pour le correcteur de L'ecf Je peut activer le site web a tout moment si vous voulez le voir en ligne envoyez un mail je l'activerai dans les 5 minutes qui suive
